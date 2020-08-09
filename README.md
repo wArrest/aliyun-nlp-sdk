@@ -7,11 +7,11 @@ sdk for aliyun nlp service:1.0
 - [x] 多语言分词 WordSegment
 - [x] 词性标注 WordPos
 - [x] 命名实体 Entity
-- [ ] 情感分析
-- [ ] 中心词提取
-- [ ] 智能文本分类
-- [ ] 文本信息抽取
-- [ ] 商品评价解析 
+- [x] 情感分析
+- [x] 中心词提取
+- [x] 智能文本分类
+- [x] 文本信息抽取
+- [x] 商品评价解析 
 
 ## Install
 ~~~ go
