@@ -17,5 +17,14 @@ sdk for aliyun nlp service:1.0
 ~~~ go
 go get -u github.com/wArrest/aliyun-nlp-sdk
 ~~~
-
+## Start
+~~~go
+client := NewNlpClient(AccessKeyId, AccessKeySerect, RegionId)
+resp, err := client.ExecApi(
+	        "wordsegment",
+			[]byte(`{"lang":"ZH","text":"Iphone专用数据线"}`),
+			"general",
+		)
+//handle resp ....
+~~~
 ## use
