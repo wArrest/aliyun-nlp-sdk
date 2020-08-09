@@ -17,3 +17,5 @@ sdk for aliyun nlp service:1.0
 ~~~ go
 go get -u github.com/wArrest/aliyun-nlp-sdk
 ~~~
+
+## use
