@@ -22,9 +22,8 @@ go get -u github.com/wArrest/aliyun-nlp-sdk
 client := NewNlpClient(AccessKeyId, AccessKeySerect, RegionId)
 resp, err := client.ExecApi(
 	        "wordsegment",
-			[]byte(`{"lang":"ZH","text":"Iphone专用数据线"}`),
-			"general",
+		[]byte(`{"lang":"ZH","text":"Iphone专用数据线"}`),
+		"general",
 		)
 //handle resp ....
 ~~~
-## use
