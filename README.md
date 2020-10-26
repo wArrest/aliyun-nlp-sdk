@@ -17,7 +17,7 @@ sdk for aliyun nlp service:1.0
 ~~~ go
 go get -u github.com/wArrest/aliyun-nlp-sdk
 ~~~
-## Start
+## Usage
 ~~~go
 client := NewNlpClient(AccessKeyId, AccessKeySerect, RegionId)
 resp, err := client.ExecApi(
